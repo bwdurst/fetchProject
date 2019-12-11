@@ -28,7 +28,7 @@ const displayPost = () => {
     const text = document.createTextNode(`${post.name.first} ${post.name.last}`)
     const details = document.createElement('p')
     const detailsButton = document.createElement('button')
-    const postId = post.name.first + post.name.last;
+    const postId = post.login.username;
 
     detailsButton.setAttribute('onclick', "addDetails(" + postId +")")
     detailsButton.innerHTML = 'See details'
