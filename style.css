@@ -1,0 +1,31 @@
+body {
+  justify-content: center;
+  margin: auto;
+  width: 600px;
+}
+
+h3 {
+  display: inline;
+}
+
+#header {
+  margin-top: 45px;
+  display: inline;
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+  width: auto;
+  border: 2px solid black;
+  list-style: none;
+}
+
+button {
+  margin-bottom: 10px;
+}
+
+li * {
+  margin: 5px 0 5px 0;
+  display: block;
+}
